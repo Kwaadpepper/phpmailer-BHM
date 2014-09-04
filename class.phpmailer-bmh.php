@@ -189,7 +189,7 @@ class BounceMailHandler {
    * Mailbox type, default is 'INBOX', other choices are (Tasks, Spam, Replies, etc.)
    * @var string
    */
-  public $boxname = INBOX;
+  public $boxname = 'INBOX';
 
   /*
    * Determines if soft bounces will be moved to another mailbox folder
